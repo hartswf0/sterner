@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Sensory World: Soundscapes, Orality, and Listening as Interface</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-sidebar" id="navSidebar">
+        <div class="nav-header">
+            <h3>Navigate</h3>
+            <button class="nav-toggle" id="navToggle">×</button>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#intro" class="nav-link active">Introduction</a></li>
+            <li><a href="#timeline" class="nav-link">Historical Timeline</a></li>
+            <li><a href="#apparatus" class="nav-link">Material Apparatus</a></li>
+            <li><a href="#interface" class="nav-link">Listening Interface</a></li>
+            <li><a href="#ethnographic" class="nav-link">Colonial Listening</a></li>
+            <li><a href="#noise-signal" class="nav-link">Noise vs Signal</a></li>
+            <li><a href="#transformations" class="nav-link">Space Transformations</a></li>
+            <li><a href="#quotes" class="nav-link">Key Insights</a></li>
+            <li><a href="#archives" class="nav-link">Archives</a></li>
+        </ul>
+    </nav>
+
+    <!-- Mobile nav toggle -->
+    <button class="nav-toggle-mobile" id="navToggleMobile">☰</button>
+
+    <!-- Main content -->
+    <main class="main-content">
+        <!-- Introduction Section -->
+        <section class="section section-intro active" id="intro">
+            <div class="hero-content">
+                <h1 class="hero-title">The Sensory World</h1>
+                <h2 class="hero-subtitle">Soundscapes, Orality, and Listening as Interface</h2>
+                <p class="hero-description">A Deep Structural Excavation of Sound Technologies and Cultural Systems</p>
+                
+                <div class="key-quote-hero">
+                    <blockquote>
+                        "Our most cherished pieties about sound-reproduction technologies—for instance, that they separated sounds from their sources or that sound recording allows us to hear the voices of the dead—were not and are not innocent empirical descriptions of the technologies' impact. They were wishes that people grafted onto sound-reproduction technologies—wishes that became programs for innovation and use."
+                    </blockquote>
+                </div>
+
+                <div class="intro-images">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1757016505/pplx_project_search_images/67f73a309d4f46d9440504f7c91893b63ae75ac3.png" alt="Early phonautograph device" class="intro-image">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1759431610/pplx_project_search_images/b6849b85103f8babd6cd00eb8fd66559f2ff3180.png" alt="Berliner gramophone setup" class="intro-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- Historical Timeline Section -->
+        <section class="section section-timeline" id="timeline">
+            <h2>Historical Timeline of Sound Technologies</h2>
+            <div class="timeline-container">
+                <div class="timeline-item" data-year="1816">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Stethoscope Invented</h3>
+                        <p>René Laennec creates the first stethoscope, enabling "mediate auscultation"</p>
+                        <div class="audio-player">
+                            <button class="play-btn" data-audio="stethoscope">▶ Listen: Heartbeat through stethoscope</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-year="1857">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Phonautograph</h3>
+                        <p>Édouard-Léon Scott de Martinville creates the first device to visually record sound</p>
+                        <div class="audio-player">
+                            <button class="play-btn" data-audio="phonautograph">▶ Listen: Au Clair de la Lune (1860)</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-year="1877">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Edison's Phonograph</h3>
+                        <p>Thomas Edison invents the phonograph, promising to capture "voices of the dead"</p>
+                        <div class="audio-player">
+                            <button class="play-btn" data-audio="edison">▶ Listen: Mary Had a Little Lamb</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-year="1887">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Berliner's Gramophone</h3>
+                        <p>Emile Berliner develops the flat disc gramophone</p>
+                        <div class="audio-player">
+                            <button class="play-btn" data-audio="gramophone">▶ Listen: Early gramophone recording</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-year="1890s">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Ethnographic Recording Begins</h3>
+                        <p>Alice Fletcher and Frances Densmore begin recording Indigenous music</p>
+                        <div class="audio-player">
+                            <button class="play-btn" data-audio="ethnographic">▶ Listen: Indigenous song recording</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Material Apparatus Section -->
+        <section class="section section-apparatus" id="apparatus">
+            <h2>Material Apparatuses: The Technological Ensemble</h2>
+            
+            <div class="apparatus-grid">
+                <div class="apparatus-card">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1756915077/pplx_project_search_images/102b6a53351a14c13eb1efba53892c4dae80f1fc.png" alt="Edison phonograph" class="apparatus-image">
+                    <h3>The Stethoscope: Mediate Auscultation</h3>
+                    <p>The stethoscope transformed listening from passive hearing to active diagnostic technique, creating new forms of medical authority and spatial relationships between doctor and patient.</p>
+                    <details class="apparatus-details">
+                        <summary>Historical Context</summary>
+                        <p>Invented by René Laennec in 1816, the stethoscope enabled what he called 'mediate auscultation' - listening to internal bodily sounds through an instrument rather than placing the ear directly on the patient.</p>
+                    </details>
+                </div>
+
+                <div class="apparatus-card">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1759431610/pplx_project_search_images/0c3626ba3795a3cb5f6673fb666c2d59c1559339.png" alt="Berliner gramophone" class="apparatus-image">
+                    <h3>The Phonograph: Capturing the 'Voices of the Dead'</h3>
+                    <p>Edison's invention promised to preserve human voice for eternity, but created new questions about authenticity, fidelity, and the nature of mechanical reproduction.</p>
+                    <div class="audio-references">
+                        <button class="reference-btn">Au Clair de la Lune (1860)</button>
+                        <button class="reference-btn">Edison's Mary Had a Little Lamb</button>
+                    </div>
+                </div>
+
+                <div class="apparatus-card">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1757016505/pplx_project_search_images/f986b29feaffa22169befd7b58c995980551ab90.png" alt="Phonautograph" class="apparatus-image">
+                    <h3>The Telegraph: Indexical Sounds and Distant Presence</h3>
+                    <p>Telegraph operators developed 'audile technique' to extract signal from noise, transforming acoustic space through indexical listening.</p>
+                    <div class="audio-references">
+                        <button class="reference-btn">Morse code sounder samples</button>
+                        <button class="reference-btn">Telegraph key clicks</button>
+                    </div>
+                </div>
+
+                <div class="apparatus-card">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1759431610/pplx_project_search_images/a6ec71d7f344512ad06d2679ca5c5798113f15f0.png" alt="Historical gramophone" class="apparatus-image">
+                    <h3>Early Radio and Headphones: Private Acoustic Spaces</h3>
+                    <p>Radio and headphones created new forms of collective isolation, enabling 'alone together' listening experiences that reshaped domestic and social space.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Listening Interface -->
+        <section class="section section-interface" id="interface">
+            <h2>The Layered Listening Interface</h2>
+            <p class="section-intro">An interactive exploration of how sound technologies mediate perception</p>
+            
+            <div class="interface-simulator">
+                <div class="interface-layers">
+                    <div class="layer layer-vibrations" id="layer1">
+                        <h4>Layer 1: The Vibrating World</h4>
+                        <div class="vibration-visual"></div>
+                    </div>
+                    
+                    <div class="layer layer-body" id="layer2">
+                        <h4>Layer 2: Ear/Body as Transducer</h4>
+                        <div class="body-elements">
+                            <div class="ear-element">👂</div>
+                            <div class="sound-waves"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="layer layer-apparatus" id="layer3">
+                        <h4>Layer 3: Apparatuses/Machines</h4>
+                        <div class="apparatus-selector">
+                            <button class="apparatus-btn active" data-apparatus="stethoscope">Stethoscope</button>
+                            <button class="apparatus-btn" data-apparatus="telegraph">Telegraph</button>
+                            <button class="apparatus-btn" data-apparatus="phonograph">Phonograph</button>
+                            <button class="apparatus-btn" data-apparatus="radio">Radio</button>
+                        </div>
+                    </div>
+                    
+                    <div class="layer layer-technique" id="layer5">
+                        <h4>Layer 5: Audile Technique Overlay</h4>
+                        <div class="technique-controls">
+                            <button class="signal-btn">Highlight Signal</button>
+                            <button class="noise-btn">Show Noise</button>
+                        </div>
+                    </div>
+                    
+                    <div class="layer layer-meaning" id="layer6">
+                        <h4>Layer 6: Listener's Construction</h4>
+                        <div class="meaning-bubbles">
+                            <div class="thought-bubble">Diagnosis</div>
+                            <div class="thought-bubble">Message</div>
+                            <div class="thought-bubble">Music</div>
+                            <div class="thought-bubble">Presence</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ethnographic Recording Section -->
+        <section class="section section-ethnographic" id="ethnographic">
+            <h2>Colonial Listening: Ethnographic Recording</h2>
+            
+            <div class="colonial-critique">
+                <div class="critique-text">
+                    <p>Early ethnographers like Alice Fletcher and Frances Densmore used recording technologies to 'preserve' Indigenous cultures while colonial policies systematically destroyed them.</p>
+                    
+                    <blockquote class="critical-quote">
+                        "The cylinder collections represent systematized cultural fragments solicited and preserved by one set of institutions while another set systematically destroyed the culture from which the fragments were taken."
+                    </blockquote>
+                </div>
+                
+                <div class="researchers-grid">
+                    <div class="researcher-card">
+                        <h4>Alice Fletcher</h4>
+                        <p>Pioneering ethnomusicologist who recorded Omaha tribal music</p>
+                    </div>
+                    <div class="researcher-card">
+                        <h4>Frances Densmore</h4>
+                        <p>Recorded over 2,400 songs from 30+ tribes</p>
+                    </div>
+                    <div class="researcher-card">
+                        <h4>Jesse Walter Fewkes</h4>
+                        <p>First to use phonograph for ethnographic recording</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Noise vs Signal Section -->
+        <section class="section section-noise-signal" id="noise-signal">
+            <h2>Noise vs. Signal: The Politics of Listening</h2>
+            
+            <div class="noise-signal-explanation">
+                <p>The distinction between noise and signal shapes who belongs in the 'audile community' and whose listening is privileged, defining what counts as 'truth' in medical diagnosis, communication, and cultural preservation.</p>
+            </div>
+            
+            <div class="noise-signal-examples">
+                <div class="example-card">
+                    <h4>Stethoscope</h4>
+                    <div class="signal-noise-pair">
+                        <div class="signal">
+                            <strong>Signal:</strong> Interior bodily sounds (heartbeat, breathing)
+                        </div>
+                        <div class="noise">
+                            <strong>Noise:</strong> Patient narrative, room sounds, muscle tension
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="example-card">
+                    <h4>Telegraph</h4>
+                    <div class="signal-noise-pair">
+                        <div class="signal">
+                            <strong>Signal:</strong> Morse code clicks and pauses
+                        </div>
+                        <div class="noise">
+                            <strong>Noise:</strong> Office cacophony, multiple instruments clicking
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="example-card">
+                    <h4>Phonograph</h4>
+                    <div class="signal-noise-pair">
+                        <div class="signal">
+                            <strong>Signal:</strong> "Actual melody" and vocal performance
+                        </div>
+                        <div class="noise">
+                            <strong>Noise:</strong> Apparatus scratching, "hollow" sound quality
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="example-card">
+                    <h4>Ethnographic Recording</h4>
+                    <div class="signal-noise-pair">
+                        <div class="signal">
+                            <strong>Signal:</strong> Traditional songs and melodies
+                        </div>
+                        <div class="noise">
+                            <strong>Noise:</strong> Living cultural context, social meaning
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Transformations Section -->
+        <section class="section section-transformations" id="transformations">
+            <h2>Acoustic Space Transformations</h2>
+            
+            <div class="transformations-list">
+                <div class="transformation-item">
+                    <div class="from">Undifferentiated acoustic space</div>
+                    <div class="arrow">→</div>
+                    <div class="to">Cellular, framed private space</div>
+                </div>
+                
+                <div class="transformation-item">
+                    <div class="from">Physical proximity (doctor/patient)</div>
+                    <div class="arrow">→</div>
+                    <div class="to">Social distance (mediated by apparatus)</div>
+                </div>
+                
+                <div class="transformation-item">
+                    <div class="from">Noisy environment</div>
+                    <div class="arrow">→</div>
+                    <div class="to">Contained, ordered (headsets, booths)</div>
+                </div>
+                
+                <div class="transformation-item">
+                    <div class="from">Local sounds</div>
+                    <div class="arrow">→</div>
+                    <div class="to">Indexical of distant events</div>
+                </div>
+            </div>
+
+            <h3>Sound/Hearing Morphisms</h3>
+            <div class="morphisms-grid">
+                <div class="morphism-card">
+                    <p>Sound (ephemeral) → object of thought/practice; measurable, objectified, commodified</p>
+                </div>
+                <div class="morphism-card">
+                    <p>Hearing (natural capacity) → physiological process; mechanical function; discrete activity</p>
+                </div>
+                <div class="morphism-card">
+                    <p>Passive hearing → active listening (auscultation)</p>
+                </div>
+                <div class="morphism-card">
+                    <p>Unaided ear (insufficient) → mediated listening (requires apparatus)</p>
+                </div>
+                <div class="morphism-card">
+                    <p>Voice (interiority) → sound effect/physiological function/timbral index</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Quotes Section -->
+        <section class="section section-quotes" id="quotes">
+            <h2>Key Insights and Theoretical Framework</h2>
+            
+            <div class="quotes-grid">
+                <div class="quote-card expandable">
+                    <blockquote>
+                        "Human beings reside at the center of any meaningful definition of sound. When the hearing of other animals comes up, it is usually contrasted with human hearing... Sound is a product of the human senses and not a thing in the world apart from humans. Sound is a little piece of the vibrating world."
+                    </blockquote>
+                    <cite>Page 28</cite>
+                    <div class="quote-impact">
+                        <h4>Impact:</h4>
+                        <p>This statement challenges the notion of sound as a purely objective natural phenomenon, asserting its anthropocentric nature and, by extension, its inherent historicity and cultural malleability.</p>
+                    </div>
+                </div>
+                
+                <div class="quote-card expandable">
+                    <blockquote>
+                        "The locution machines to hear for them suggests a further implication of cultural attitudes about hearing, deafness, and states in between... sound reproduction came to be represented as a solution, not only to the physical fact of deafness or hardness of hearing, but, more important, to the social fact of unaided hearing."
+                    </blockquote>
+                    <cite>Page 81</cite>
+                    <div class="quote-impact">
+                        <h4>Impact:</h4>
+                        <p>This reveals sound reproduction as a broader cultural project beyond mere technological advancement, arguing that the desire to augment "unaided hearing" (even for the fully abled) drove its development.</p>
+                    </div>
+                </div>
+                
+                <div class="quote-card expandable">
+                    <blockquote>
+                        "The operator focusing attention on his or her instrument was not simply listening for a particular event in a confusing environment but listening for an event in the environment that corresponded with an event in Milwaukee, or Baltimore, or Chicago... Indexical sounds brought the distant world near."
+                    </blockquote>
+                    <cite>Page 149</cite>
+                    <div class="quote-impact">
+                        <h4>Impact:</h4>
+                        <p>This vividly illustrates how audile technique transforms local "noise" into meaningful "signal" by reconfiguring acoustic space, enabling a powerful form of mediated perception.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Archives Section -->
+        <section class="section section-archives" id="archives">
+            <h2>Historical Sound Archives</h2>
+            
+            <div class="archives-grid">
+                <div class="archive-card">
+                    <h3>First Sounds Project</h3>
+                    <p>Earliest clearly recognizable record of human voice - Au Clair de la Lune (April 9, 1860)</p>
+                    <a href="https://www.firstsounds.org/sounds/scott.php" target="_blank" class="archive-link">Explore Archive</a>
+                </div>
+                
+                <div class="archive-card">
+                    <h3>Library of Congress National Jukebox</h3>
+                    <p>10,000+ Victor Talking Machine recordings from 1901-1925</p>
+                    <a href="https://www.loc.gov/collections/national-jukebox/" target="_blank" class="archive-link">Explore Archive</a>
+                </div>
+                
+                <div class="archive-card">
+                    <h3>Smithsonian Early Sound Recording</h3>
+                    <p>400 earliest audio recordings including Edison experiments</p>
+                    <a href="https://americanhistory.si.edu/press/fact-sheets/early-sound-recording-collection-and-sound-recovery-project" target="_blank" class="archive-link">Explore Archive</a>
+                </div>
+                
+                <div class="archive-card">
+                    <h3>Yale Historical Sound Recordings</h3>
+                    <p>Extensive collection of historical recordings and audio documents</p>
+                    <a href="https://library.yale.edu/visit-and-study/libraries-locations/gilmore-music-library/historical-sound-recordings" target="_blank" class="archive-link">Explore Archive</a>
+                </div>
+                
+                <div class="archive-card">
+                    <h3>UCSB Cylinder Audio Archive</h3>
+                    <p>Digital preservation of cylinder recordings</p>
+                    <a href="https://www.library.ucsb.edu/special-collections/performing-arts/pasound" target="_blank" class="archive-link">Explore Archive</a>
+                </div>
+            </div>
+            
+            <div class="key-figures">
+                <h3>Key Historical Figures</h3>
+                <div class="figures-list">
+                    <span class="figure">Édouard-Léon Scott de Martinville</span>
+                    <span class="figure">Thomas Edison</span>
+                    <span class="figure">Alexander Graham Bell</span>
+                    <span class="figure">René Laennec</span>
+                    <span class="figure">Emile Berliner</span>
+                    <span class="figure">Alice Fletcher</span>
+                    <span class="figure">Frances Densmore</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

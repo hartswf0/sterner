@@ -1,0 +1,148 @@
+# Create structured data for the presentation combining all the research
+import json
+
+presentation_data = {
+    "title": "The Sensory World: Soundscapes, Orality, and Listening as Interface",
+    "subtitle": "A Deep Structural Excavation of Sound Technologies and Cultural Systems",
+    
+    "sections": [
+        {
+            "id": "intro",
+            "title": "Introduction: Sound as Cultural Construction",
+            "content": "Our most cherished pieties about sound-reproduction technologies were not innocent empirical descriptions—they were wishes that people grafted onto technologies, wishes that became programs for innovation and use.",
+            "key_quote": "Human beings reside at the center of any meaningful definition of sound. Sound is a product of the human senses and not a thing in the world apart from humans. Sound is a little piece of the vibrating world.",
+            "images": ["image:47", "image:44"]
+        },
+        
+        {
+            "id": "apparatus",
+            "title": "Material Apparatuses: The Technological Ensemble",
+            "subsections": [
+                {
+                    "title": "The Stethoscope: Mediate Auscultation",
+                    "content": "The stethoscope transformed listening from passive hearing to active diagnostic technique, creating new forms of medical authority and spatial relationships between doctor and patient.",
+                    "audio_refs": ["PMC study on stethoscope history"],
+                    "images": ["Medical stethoscope historical images"]
+                },
+                {
+                    "title": "The Phonograph: Capturing the 'Voices of the Dead'",
+                    "content": "Edison's invention promised to preserve human voice for eternity, but created new questions about authenticity, fidelity, and the nature of mechanical reproduction.",
+                    "audio_refs": ["https://www.firstsounds.org/sounds/scott.php - Au Clair de la Lune (1860)", "https://www.loc.gov/collections/national-jukebox/"],
+                    "images": ["image:42", "image:43"]
+                },
+                {
+                    "title": "The Telegraph: Indexical Sounds and Distant Presence",
+                    "content": "Telegraph operators developed 'audile technique' to extract signal from noise, transforming acoustic space through indexical listening.",
+                    "audio_refs": ["Morse code sounder samples", "Telegraph key clicks"],
+                    "images": ["Telegraph sounder equipment"]
+                },
+                {
+                    "title": "Early Radio and Headphones: Private Acoustic Spaces",
+                    "content": "Radio and headphones created new forms of collective isolation, enabling 'alone together' listening experiences that reshaped domestic and social space.",
+                    "audio_refs": ["Historical radio broadcasts"],
+                    "images": ["Early headphone designs"]
+                }
+            ]
+        },
+        
+        {
+            "id": "transformations",
+            "title": "Morphisms: Sound/Hearing Transformations",
+            "content": [
+                "Sound (ephemeral) → object of thought/practice; measurable, objectified, commodified",
+                "Hearing (natural capacity) → physiological process; mechanical function; discrete activity",
+                "Passive hearing → active listening (auscultation)",
+                "Unaided ear (insufficient) → mediated listening (requires apparatus)",
+                "Voice (interiority) → sound effect/physiological function/timbral index"
+            ]
+        },
+        
+        {
+            "id": "ethnographic",
+            "title": "Colonial Listening: Ethnographic Recording",
+            "content": "Early ethnographers like Alice Fletcher and Frances Densmore used recording technologies to 'preserve' Indigenous cultures while colonial policies systematically destroyed them.",
+            "key_researchers": ["Alice Fletcher", "Frances Densmore", "Jesse Walter Fewkes"],
+            "archives": ["Library of Congress American Folklife Center", "Smithsonian recordings"],
+            "audio_refs": ["Native American cylinder recordings", "Ethnographic field recordings"]
+        },
+        
+        {
+            "id": "noise_signal",
+            "title": "Noise vs. Signal: The Politics of Listening",
+            "content": "The distinction between noise and signal shapes who belongs in the 'audile community' and whose listening is privileged, defining what counts as 'truth' in medical diagnosis, communication, and cultural preservation.",
+            "examples": [
+                "Stethoscope: Interior bodily sounds (signal) vs. patient narrative (noise)",
+                "Telegraph: Morse code clicks (signal) vs. office cacophony (noise)", 
+                "Phonograph: 'Actual melody' (signal) vs. apparatus noise (noise)",
+                "Ethnographic: Traditional songs (signal) vs. living culture (noise)"
+            ]
+        },
+        
+        {
+            "id": "spaces",
+            "title": "Acoustic Space Transformations",
+            "content": "Sound technologies didn't just reproduce sound—they restructured space itself, creating new forms of private and public auditory experience.",
+            "transformations": [
+                "Undifferentiated acoustic space → cellular, framed private space",
+                "Physical proximity → social distance (mediated by apparatus)",
+                "Noisy environment → contained, ordered (headsets, booths)",
+                "Local sounds → indexical of distant events"
+            ]
+        },
+        
+        {
+            "id": "diagram",
+            "title": "The Layered Listening Interface",
+            "content": "A multi-layered interactive model showing how listening technologies create 'audile technique' through material apparatus, social networks, and learned practices."
+        }
+    ],
+    
+    "historical_recordings": {
+        "scott_phonautograph": {
+            "au_clair_1860": "https://www.firstsounds.org/sounds/scott.php",
+            "description": "Earliest clearly recognizable record of human voice (April 9, 1860)"
+        },
+        "edison_early": {
+            "mary_lamb": "First Edison recording - Mary Had a Little Lamb",
+            "source": "Edison Museum collection"
+        },
+        "loc_jukebox": {
+            "url": "https://www.loc.gov/collections/national-jukebox/",
+            "description": "10,000+ Victor Talking Machine recordings 1901-1925"
+        },
+        "ethnographic": {
+            "densmore_collection": "Frances Densmore Native American recordings",
+            "fletcher_omaha": "Alice Fletcher Omaha Indian music"
+        }
+    },
+    
+    "archives_museums": {
+        "first_sounds": "https://www.firstsounds.org/",
+        "loc_jukebox": "https://www.loc.gov/collections/national-jukebox/", 
+        "smithsonian_early_sound": "https://americanhistory.si.edu/press/fact-sheets/early-sound-recording-collection-and-sound-recovery-project",
+        "yale_historical_sound": "https://library.yale.edu/visit-and-study/libraries-locations/gilmore-music-library/historical-sound-recordings",
+        "ucsb_cylinders": "https://www.library.ucsb.edu/special-collections/performing-arts/pasound"
+    },
+    
+    "key_figures": [
+        "Édouard-Léon Scott de Martinville", "Thomas Edison", "Alexander Graham Bell",
+        "René Laennec", "Emile Berliner", "Alice Fletcher", "Frances Densmore",
+        "Clarence Blake", "Hermann Helmholtz", "John Philip Sousa"
+    ],
+    
+    "critical_concepts": [
+        "Audile Technique", "Mediate Auscultation", "Tympanic Function", 
+        "Indexical Sounds", "Apparatus Noise", "Colonial Preservation",
+        "Private Acoustic Space", "Signal/Noise Politics", "Cultural Fragments"
+    ]
+}
+
+# Save as JSON for the web app
+with open('presentation_data.json', 'w') as f:
+    json.dump(presentation_data, f, indent=2)
+
+print("Presentation data structure created with:")
+print(f"- {len(presentation_data['sections'])} main sections")
+print(f"- {len(presentation_data['key_figures'])} historical figures")
+print(f"- {len(presentation_data['archives_museums'])} archives/museums")
+print(f"- {len(presentation_data['critical_concepts'])} critical concepts")
